@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-family: 'PT Serif', serif;
+}
+
+header{
+    margin-top: 0px;
+    color: white;
+    height: 80px;
+    font-size: 1.3rem;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    height: 94px
+}
+
+nav{
+    background-color: #0077b6;
+    position: fixed;
+    padding: 40px 50px;
+    padding-bottom: 0;
+    box-shadow: 5px 4px 20px 10px black;
+    padding-right: 86px;
+}
+
+ul{
+    text-transform: uppercase;
+    margin-right: 0px;
+    text-align: center;
+    margin-left: 420px;
+    margin-top: -28px;
+}
+
+li{
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+#title{
+    word-spacing: 8px;
+    margin-top: -20px;
+    cursor: pointer;
+    font-size: 45px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.line-transition::after{
+    content: '';
+    display: block;
+    width: 0;
+    border-radius: 500px;
+    height: 3px;
+    background: white;
+    transition: width .2s;
+    margin-top: 17px;
+}
+
+.line-transition:hover::after{
+    width: 100%;
+    transition: width .2s;
+}
+
+.top-bar{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.truck{
+    margin-top: 8px;
+    font-size: 30px;
+}
+
+.guarantees{
+    position: absolute;
+    margin-top: 90px;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.g div{
+    margin-left: 10px;
+}
+
+.g i{
+    color: #0077b6;
+}
+
+.g{
+    margin-top: 30px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-box{
+    margin-left: 50px;
+}
+
+#search{
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#search-logo{
+    cursor: pointer;
+    margin-left: -5px;
+    color: white;
+    background-color: #0077b6;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+}
+
+#img-main{
+    margin-top: 70px;
+    margin-left: 350px;
+    width: 700px;
+}
+
+#most-famous{
+    margin-top: 150px;
+    text-align: center;
+    color: #0077b6;
+    word-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.mfl{
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.most-famous-logos{
+    width: 200px;
+    margin-left: 30px;
+}
+
+.ck{
+    margin-bottom: 27px;
+    width: 150px;
+}
+
+.givenchy{
+    margin-bottom: 90px;
+}
+
+#lets-purchase{
+    margin-top: 50px;
+    font-size: 40px;
+    color: #0077b6;
+    text-transform: uppercase;
+    word-spacing: 12px;
+    text-align: center;
+}
+
+.stack{
+    display: flex;
+    flex-direction: row;
+}
+
+.cards{
+    margin-top: 50px;
+    margin-left: 65px;
+}
+
+.card{
+    cursor: pointer;
+    margin-left: 75px;
+    padding: 50px;
+}
+
+.ps{
+    border-radius: 3px;
+    cursor: pointer;
+    width: 400px;
+    transition: box-shadow .2s;
+}
+
+.card:hover{
+    background-color: #D4D4D4;
+    transition: background-color .2s;
+    border-radius: 5px;
+}
+
+.card-name{
+    margin-top: 40px;
+    color: grey;
+    margin-left: 150px;
+}
+
+.band{
+    display: flex;
+    margin: 50px 0px;
+    padding: 50px 50px;
+    color: white;
+    padding-left: 100px;
+    background-color: #0077b6;
+    margin-bottom: 150px;
+}
+
+.b{
+    margin-right: 50px;
+    text-align: center;
+}
+
+.b i{
+    border-radius: 50px;
+    padding: 20px;
+    border: 2px solid #0077b6;
+    font-size: 50px;
+    margin: 20px;
+    box-shadow: inset .5px .5px 7px #000;
+}
+
+#insta{
+    margin-left: 20px;
+    width: 50px
+}
+
+#arrow{
+    margin-left: 20px;
+}
+
+footer{
+    color: white;
+    background-color: #0077b6;
+}
+
+.fd{
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: 500px;
+    display: flex;
+}
